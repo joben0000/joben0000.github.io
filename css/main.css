@@ -1,0 +1,146 @@
+/**
+* main.css
+* @autor Jobenpreet Singh
+* @date May 20, 2021
+* @purpose Decorate my personal webpage
+* @description This stylesheet provides a simple and intuitive interface for a resume/personal webpage.
+*/
+
+/* Set the language */
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Set the general attributes for the body tag*/
+body {
+    max-width: 50em;
+    margin: 0px auto;
+    padding: 0% 2%;
+}
+
+/* Prepare a black class for the body tag to implement black mode */
+.blackMode {
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Name's attributes*/
+header h1 {
+    border-bottom: 4px solid steelblue;
+    margin-top: 0%;
+    background-color: lightsteelblue;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+/* 
+* Profile photo and links grid
+*
+*/
+#photo_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+body #img-profile {
+    width:100%;
+    object-fit:cover;
+}
+
+nav {
+    margin-left: 5%;
+    grid-column: 2;
+}
+
+nav ul li {
+    margin: 5% auto;
+}
+
+/*
+* About
+*
+*/
+#about {
+    text-align: justify;
+}
+
+
+/*
+* Education
+*
+*/
+
+#education div {
+    display:inline-block;
+    margin-right: 1em;
+}
+
+/*
+* Skills
+*
+*/
+
+#skills div p {
+    background-color:lightskyblue;
+    padding: 2%;
+    border-radius: 5%;
+    border: 1px solid darkblue;
+    line-height: 1.5em;
+    margin:1em;
+}
+
+#skills p :hover {
+    background-color: cadetblue;
+}
+
+#techSkills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+* Experience
+*
+*/
+#experience div {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/*
+* Footer attributes
+*
+*/
+
+footer {
+    background-color: lightsteelblue;
+    border-top: 4px solid steelblue;
+    padding: 1em;
+}
+
+#contact-link {
+    flex-direction: column;
+}
+
+#contact-link p {
+    margin-right: 0.2em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+
+#img-Il-logo {
+    width: 1em;
+}
+
+
+
+
+
+
+
+
